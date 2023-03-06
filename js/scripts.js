@@ -41,10 +41,10 @@ function toogleMenu(){
 	subMenu.classList.toggle("open-menu");
 	div_submenu.style.visibility="visible";
 	let body_click = document.getElementById("body");
-	body_click.addEventListener("click", () => {
+	/*body_click.addEventListener("click", () => {
 		console.log("body cliqué");
 		div_submenu.style.visibility="hidden";
-	})
+	})*/
 }
 
 
