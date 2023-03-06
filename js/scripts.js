@@ -1,8 +1,8 @@
 var li_items = document.querySelectorAll(".sidebar ul li");
 var hamburger = document.querySelector(".hamburger");
 var wrapper = document.querySelector(".wrapper");
-
-
+var div_submenu = document.getElementById("subMenu")
+div_submenu.style.visibility="visible";
 li_items.forEach((li_item)=>{
 	li_item.addEventListener("mouseenter", ()=>{
 		if(wrapper.classList.contains("click_collapse")){
@@ -37,7 +37,14 @@ hamburger.addEventListener("click", () => {
 let subMenu= document.getElementById("subMenu");
 
 function toogleMenu(){
+	console.log("liste ouverte");
 	subMenu.classList.toggle("open-menu");
+	div_submenu.style.visibility="visible";
+	let body_click = document.getElementById("body");
+	body_click.addEventListener("click", () => {
+		console.log("body cliqué");
+		div_submenu.style.visibility="hidden";
+	})
 }
 
 
