@@ -43,7 +43,7 @@ function toogleMenu(){
 	let body_click = document.getElementById("body");
 	/*body_click.addEventListener("click", () => {
 		console.log("body cliqué");
-		div_submenu.style.visibility="hidden";
+		div_submenu².style.visibility="hidden";
 	})*/
 }
 
