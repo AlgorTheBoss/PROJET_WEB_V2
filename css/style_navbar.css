@@ -22,7 +22,7 @@ h1 {
 	left: 0;
 	top: 0;
 	position: absolute;
-	z-index:-1;
+	z-index:2;
 	text-shadow:
 	 0px 0px,
 	 0px 0px,
@@ -54,7 +54,7 @@ h1 {
 	 10px 10px;
   }
 
-
+/*---------------ALL-----------------*/
 *{
 	font-family: 'Baloo Paaji 2', cursive;
 	margin: 0;
